@@ -42,6 +42,11 @@
 
 .blog-content h1 {
     font-size: 20px;
+    transition: color 0.4s;
+}
+
+.blog-content h1:hover {
+    color: var(--yellow);
 }
 
 .blog-content>.content {
